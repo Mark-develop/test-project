@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /*   -----   font-family: 'Poppins', sans-serif;   -----   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: black;
+}
+
+html{
+    height: 450vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F78434;
+}
+
+/*   -----------------------------------------------   HEADER   -----------------------------------------------   */
+
+header{
+    display: block;
+    margin: 0 auto;
+    width: 1440px;
+    height: 102px;
+    max-height: 102px;
+    background-color: white;
+    padding: 4vh 0 4vh 12.5%;
+}
+
+/*   ---------------------------   LOGO   ---------------------------   */
+.headerLogo{
+    display: inline-block;
+}
+
+.headerLogo svg{
+    transition: transform 0.3s ease-in;
+    
+}
+
+.headerLogo svg:hover{
+    transform: rotate(360deg);
+    transition: 0.3s ease-in;
+}
+
+.logoText{
+    font-size: 23px;
+    float: right;
+    margin-left: 4px;
+}
+
+/*   ---------------------------   NAV BAR   ---------------------------   */
+header nav{
+    float: right;
+    padding-right: 10%;
+}
+
+
+header li{
+    display: inline-block;
+    margin: 0 21px 0 21px;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+header li a{
+    text-decoration: none;
+    transition: color 0.1s ease-in;
+
+}
+
+header li a:hover{
+    color: #F78434;
+    transition: 0.1s ease-in;
+}
+
+/*   -----------------------------------------------   BLOCK 1   -----------------------------------------------   */
+
+.headPage{
+    display: block;
+    margin: 0 auto;
+    width: 1440px;
+    padding: 100px  0px 0px 12.5%;
+    background-image: url(IMG/Your\ image\ here.png);
+    background-position: 760px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 676px;
+}
+
+.headPage h2{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.headPage h4{
+    color: #323232;
+    font-weight: 400;
+}
+
+/*   ---------------------------   FORM   ---------------------------   */
+.mailForm{
+    height: 58px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 29px;
+    box-shadow: 0 0 5px 1px rgb(207, 207, 207);
+    margin: 2vh 0 2vh 0;
+}
+
+.mailForm svg{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.mailForm .inpMail,
+.mailForm .subMail{
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.mailForm .inpMail{
+    padding-left: 10px;
+}
+
+.mailForm .subMail{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    width: 38%;
+    float: right;
+    background-color: #F78434;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+/*   -----------------------------------------------   BLOCK 2   -----------------------------------------------   */
+.provide{
+    padding-top: 100px;
+
+}
+
+/*   ---------------------------   BRANDS LINE   ---------------------------   */
+.brandsLine{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+/*   ---------------------------   BLOCK 2 PAGE   ---------------------------   */
+.dropImg{
+    margin-right: 30px;
+}
+
+#animImg{
+    position: absolute;
+    z-index: 2;
+    left: 470px;
+    margin-top: 350px;
+    opacity: 0.9;
+}
+
+.provideDis{
+    float: right;
+    width: calc(100% - 730px);
+    height: 550px;
+    padding-left: 14%;
+    padding-top: 50px;
+}
+
+.provideDis *{
+    margin: 10px 0 10px 0;
+}
+
+.provideDis h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62px;
+}
+
+.provideDis h4{
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.defBtn{
+    padding: 18px 39px 16px 39px;
+    background: #F78434;
+    border-radius: 29px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*   -----------------------------------------------   FLOATING BLOCK   -----------------------------------------------   */
+
+.floatBlock{
+    background-image: url(IMG/Bckg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: block;
+    margin: 0 auto;
+    width: 1110px;
+    height: 464px;
+    background-color: #58BEBF;
+    border-radius: 20px;
+    position: relative;
+    top: 235px;
+}
+
+.floatBlockDis{
+    float: right;
+    width: calc(100% - 657px);
+    height: 500px;
+    padding-top: 140px;
+}
+
+.floatBlockDis h2{
+    color: white;
+    font-size: 42px;
+    line-height: 62px;
+    letter-spacing: 0.8px;
+}
+
+.floatBlockDis h4{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 10px 0 30px 0;
+}
+
+.whiteBtn{
+    padding: 18px 39px 16px 39px;
+    background: #FFFFFF;
+    border-radius: 29px;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*   -----------------------------------------------   BLOCK 3   -----------------------------------------------   */
+
+.buySell{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(245,246,250,1) 25%);;
+    padding-top: 300px;
+}
+
+.buySell h2{
+    text-align: center;
+    font-size: 42px;
+    line-height: 62px;
+    color: #323232;
+    font-weight: 700;
+}
+
+.buySell h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #323232;
+}
+
+/*   ---------------------------   BUY & SELL BLOCKS   ---------------------------   */
+.buySellBlocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.seller{
+    width: 35%;
+    height: 365px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    padding-top: 40px;
+    margin: 0 15px 0 15px;
+    box-shadow: 0 0 10px 1px #e1e1e1;
+    transition: 0.2s ease-in;
+}
+.seller:hover{
+    background-color: #F78434;
+    color: #FFFFFF;
+    box-shadow: 0 0 15px 1px #777777;
+    transition: 0.2s ease-in;
+}
+
+.seller svg{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.seller h3{
+    font-size: 42px;
+    line-height: 63px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.seller h4{
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seller .whiteBtn{
+    display: block;
+    margin: 0 auto;
+    color: #F78434;
+}
+
+/*   -----------------------------------------------   BLOCK 4   -----------------------------------------------   */
+
+.advantages{
+    background-color: white;
+    padding-top: 110px;
+}
+
+.advantages h2{
+    text-align: center;
+    color: #323232;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.advantagesFlexBox{
+    margin: 55px 0 110px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.advantagesItem{
+    width: 250px;
+    margin: 0 17.5px 0 17.5px;
+}
+
+.advantagesItem svg{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.advantagesItem h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #323232;
+}
+
+.advantagesItem h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #323232;
+}
+
+/*   -----------------------------------------------   BLOCK 5   -----------------------------------------------   */
+
+.blog{
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.blog h2{
+    margin-left: 165px;
+    display: inline-block;
+    font-size: 42px;
+    line-height: 62px;
+    color: #323232;
+}
+
+.blog h4{
+    color: #606060;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
+    margin-right: 185px;
+    margin-top: 35px;
+}
+
+/*   ---------------------------   BLOG FLEX CONTAINER   ---------------------------   */
+
+.blogContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.blogItem{
+    width: 350px;
+    height: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 15px 0 15px;
+    box-shadow: 0px 0px 10px 0.1px #979797;
+}
+
+.blogItem img{
+    max-height: 204px;
+}
+
+.blogItem h5{
+    font-size: 16px;
+    line-height: 27px;
+    color: #323232;
+    letter-spacing: 1.15px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.blogItem .themeBlog{
+    font-size: 18px;
+    line-height: 27px;  
+    letter-spacing: 0.6px;
+    color: #323232;
+    margin: 0px 30px 0px 30px;
+}
+
+.blogItem .place{
+    margin: 0px 30px 0px 30px;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.15px;
+    color: #58BEBF;
+    transition: color 0.2s ease-in;
+}
+
+.blogItem .place:hover{
+    color: #F78434;
+    transition: 0.2s ease-in;
+}
+
+.playBtn{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 18px 15px 16px 18px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/*   -----------------------------------------------   BLOCK 6   -----------------------------------------------   */
+
+.getExperience{
+    background-image: url(IMG/Mask.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1440px;
+    height: 547px;
+    display: block;
+    margin: 0 auto;
+    padding: 211px 0 0 165px;
+}
+
+.getExperience h2{
+    font-size: 42px;
+    line-height: 62px;
+    letter-spacing: 0.8px;
+    color: white;
+    font-weight: 700;
+}
+
+.getExperience h4{
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.getExperience img{
+    width: 478px;
+    height: 547px;
+    position: relative;
+    top: -420px;
+    right: 200px;
+    float: right;
+}
+
+/*   -----------------------------------------------   FOOTER  -----------------------------------------------   */
+
+footer{
+    height: 325px;
+    width: 1440px;
+    margin: 0 auto;
+    display: block;
+    padding: 90px 0px 0px 150px;
+}
+
+footer h4{
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.15px;
+    color: #323232;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+footer .smLinks{
+    margin: 40px 30px 0 0px;
+}
+
+footer table{
+    float: right;
+    position: relative;
+    top: -330px;
+}
+
+footer table th,
+footer table td{
+    text-align: start;
+    padding: 5px 70px 5px 70px;
+}
+
+footer table th{
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    color: #323232;
+}
+
+footer table td{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color: #323232;
+}
+
+/*   -----------------------------------------------   POPUP FORM  -----------------------------------------------   */
+
+.popUpForm{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 530px;
+    background-color: #69c0f1;
+    z-index: 10;
+    border: 2px solid #F78434;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 27em 13em #000;
+    display: none;
+}
+
+.popUpForm .headerLogo{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.popUpForm .headerLogo .logoText{
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    float: none;
+    color: #9f5f33;
+}
+
+.formPar{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #F78434;
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    color: blanchedalmond;
+}
+
+.popUpForm form input{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-bottom:  2px solid #F78434;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+.popUpForm button{
+    width: 35%;
+    height: 48px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 30px;
+    color: blanchedalmond;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.popUpForm button:hover{
+    border-bottom: 3px solid #9f5f33;
+    transition: 0.1s ease-in;
+}
+
+.submit{
+    margin-left: 10%;
+    background-color: #F78434;
+}
+
+.back{
+    margin-left: 10%;
+    background-color: #F78434;
+    background-color: #23756c;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.anim{
+    animation: animOpen 1s;
+}
+
+.animClose{
+    animation: animClose 1s;
+}
+
+@keyframes animOpen{
+    0%{
+        top: 160%;
+    }
+    75%{
+        top: 45%;
+    }
+    100%{
+        top: 50%;
+    }
+}
+
+@keyframes animClose{
+    0%{
+        top: 50%;
+    }
+    25%{
+        top: 45%;
+    }
+    100%{
+        top: 160%;
+    }
+}
